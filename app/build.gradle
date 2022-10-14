@@ -45,7 +45,9 @@ dependencies {
     // LiveData
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
     // Coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+    //lifecycle scope
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.0-alpha02"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
